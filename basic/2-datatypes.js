@@ -29,3 +29,26 @@ console.log(temp1);
 console.log(temp2);
 //output: undefined
 
+//Tipagem de variáveis: Javascript é fracamente tipada. 
+//A mesma variável pode receber qual tipo de dado.
+
+let value = 1;
+
+console.log(value);
+//output: 1
+
+value = 9.99;
+
+console.log(value);
+//output: 9.99
+
+value = "This is a string"
+
+console.log(value);
+//output: This is a string
+
+value = false;
+
+console.log(value);
+//output: false
+
