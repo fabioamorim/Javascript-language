@@ -1,9 +1,9 @@
 /**
  * javascript data types
  * 
- * Numbers
+ * Numbers (Integers and floating-point values)
  * Strings
- * Boolean
+ * Boolean (true or false)
  * 
 */
 
@@ -11,13 +11,21 @@ let n1 = 10;
 let n2 = 3.25;
 let text = "This text string";
 let temp = true;
+let temp1 = null;
+let temp2 = undefined;
 
 console.log(typeof n1, typeof n2);
 //output: number number
 
 console.log(typeof text);
-//string
+//output: string
 
 console.log(typeof temp);
-//boolean
+//output: boolean
+
+console.log(temp1);
+//output: null
+
+console.log(temp2);
+//output: undefined
 
