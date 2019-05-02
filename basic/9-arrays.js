@@ -1,6 +1,6 @@
 /**
  * 
- * Javascript: Arrays são heterogêneos e não possue tamanho fixo.
+ * Javascript: Arrays são heterogêneos e não possuem tamanho fixo.
  * 
  */
 
