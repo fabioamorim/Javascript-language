@@ -20,6 +20,7 @@ function soma2(a, b, c) {
 
 console.log(soma2(), soma2(2), soma2(0,0,0));
 
+//Mais nova, altamente recomendada
 function soma3(a = 1, b = 1, c = 1){
     return a + b + c;
 }
