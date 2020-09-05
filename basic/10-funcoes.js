@@ -3,8 +3,8 @@ Functions:
 */
 
 // anonymous function
-
-() => {}; // arrow function
+let anonymous = function(){}
+let anonymous2 = () => {}; // arrow function
 
 // Named Function
 function helloWorld(){
@@ -28,3 +28,12 @@ function foo(a,b){  // Extern function
 
 console.log(foo(2,3));
 // 10
+
+//using arrow function
+const foo2 = (a,b) => {
+  const boo2 = x => x+x;
+  return boo2(a) + boo2(b)
+}
+
+console.log(foo2(3,4))
+// 14
